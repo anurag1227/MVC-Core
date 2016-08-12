@@ -7,5 +7,9 @@ namespace OdeToFood.Controllers
 {
     public class HomeController
     {
+        public string Index()
+        {
+            return "Hello From a Controller";
+        }
     }
 }
