@@ -172,6 +172,8 @@ C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Program.cs
 C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Startup.cs
 C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Controllers\AboutController.cs
 C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Controllers\HomeController.cs
-C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Models\Restaurant.cs
+C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Entities\Restaurant.cs
 C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Services\Greeter.cs
 C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\Services\RestaurantData.cs
+C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\ViewModels\HomePageViewModel.cs
+C:\Users\Anurag\ASP + MVC\MVC-Core\OdeToFood\src\OdeToFood\ViewModels\RestaurantEditViewModel.cs
