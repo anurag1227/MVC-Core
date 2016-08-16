@@ -12,6 +12,31 @@ namespace OdeToFood.Services
         Restaurant Get(int id);
         void Add(Restaurant rest);
     }
+
+    public class SqlrestaurantData : IRestaurantData
+    {
+        private OdeToFoodDBContext _context;
+
+        public SqlrestaurantData(OdeToFoodDBContext context)
+        {
+            _context = context;
+        }
+        public void Add(Restaurant rest)
+        {
+            _context.Add(rest);
+            _context.SaveChanges();
+        }
+
+        public Restaurant Get(int id)
+        {
+            return _context.Restaurants.FirstOrDefault(p => p.Id == id);
+        }
+
+        public IEnumerable<Restaurant> GetAll()
+        {
+            return _context.Restaurants.ToList();
+        }
+    }
     public class InMemoryRestaurantData : IRestaurantData
     {
         private static List<Restaurant> _restaurants;
